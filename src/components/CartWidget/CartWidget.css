@@ -1,0 +1,16 @@
+.cart-widget {
+    display: flex;
+    align-items: center; /* Centrar el ícono del carrito verticalmente */
+    gap: 8px; /* Espaciado entre ícono y texto (si existe) */
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .cart-widget:hover {
+    color: #0056b3; /* Cambiar el color al pasar el mouse */
+  }
+  
+  .cart-widget .icon {
+    font-size: 24px;
+  }
+  

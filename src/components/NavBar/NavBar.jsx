@@ -1,4 +1,6 @@
 import { FiShoppingCart } from "react-icons/fi";
+import { CartWidget } from "../CartWidget/CartWidget";
+import "./NavBar.css"
 
 export const NavBar = () => {
   return (
@@ -18,13 +20,14 @@ export const NavBar = () => {
             alt="Vite logo"
           />
           <span style={{ fontSize: 18, fontWeight: "bolder" }}>
-            Erland Books
+            Erland Bookss
           </span>
-          <FiShoppingCart style={{fontSize:100, color: "red"}}/>
+          {/* <FiShoppingCart style={{fontSize:100, color: "red"}}/> */}
           <nav>
             <a href="">Misterio</a>
             <a href="">Terror</a>
           </nav>
+          <CartWidget/>
         </div>
       </div>
     </header>

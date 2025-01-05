@@ -1,0 +1,45 @@
+header {
+    background-color: #f8f9fa; /* Fondo claro */
+    border-bottom: 2px solid #ddd; /* Línea inferior para separación */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 0 16px; /* Espaciado interno horizontal */
+  }
+  
+  .logo {
+    height: 50px; /* Tamaño ajustado del logo */
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px; /* Espaciado entre los enlaces */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  nav a {
+    text-decoration: none; /* Quitar subrayado */
+    color: #333; /* Color del texto */
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px; /* Espaciado interno */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transición suave */
+  }
+  
+  nav a:hover {
+    color: #fff; /* Cambiar color al pasar el mouse */
+    background-color: #007bff; /* Fondo azul al pasar el mouse */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+  
+  header span {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #444;
+    margin: 0 20px; /* Espaciado horizontal */
+  }
+  
